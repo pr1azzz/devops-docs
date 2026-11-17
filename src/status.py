@@ -8,4 +8,5 @@ def format_status(version: str, deployed: bool) -> str:
 
 
 if __name__ == "__main__":
-    print(format_status("1.0", deployed=True))  
+    print(format_status("1.0", deployed=True))
+    
